@@ -2,7 +2,7 @@
 
 
 ## Usage
-
+This is a simple GitHub Action to deploy current repo to a Deta Micro. Uses `deta deploy` command to deploy the latest changes as per [documentation](https://docs.deta.sh/docs/cli/commands/#deta-deploy). 
 
 ## Inputs
 
