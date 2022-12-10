@@ -16,7 +16,7 @@ You can generate your own access token from your [Deta account](https://web.deta
 - Navigate to **Secrets** panel;
 - **Required:** Click on **New secret** and Name it `DETA_ACCESS_TOKEN` and paste the access token obtained from DETA
 - **Required:** Create a New Secret with name as `DETA_MICRO_NAME` and put your deta micro instance name
-- **Required:** Create a New Secret with name as `DETA_PROJECT_NAME` and put your deta project name instance name. Default project name will be **default**
+- **Required:** Create a New Secret with name as `DETA_PROJECT_NAME` and put your deta project name instance name. You can use default project name as **default**
 
 
 ## Copy & Paste These Codes Inside `.github/workflows/main.yml` File
