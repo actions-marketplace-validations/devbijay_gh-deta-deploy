@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2 #Be sure you check-out the repo first. Deta CLI needs access to the files
-      - uses: devbijay/gh-deta-deploy@v1.0.0
+      - uses: devbijay/gh-deta-deploy@1.0
         with:
           deta-access-token: ${{ secrets.DETA_ACCESS_TOKEN }}
           deta-name: ${{ secrets.DETA_MICRO_NAME }}
