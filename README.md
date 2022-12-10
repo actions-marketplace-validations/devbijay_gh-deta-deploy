@@ -20,7 +20,7 @@ You can generate your own access token from your [Deta account](https://web.deta
 - **Optional:** Create a New Secret with name as `DETA_PROJECT_DIR` and put your deta project directory incase it's not located in root directory . Default will be `.`
 
 
-## Copy & Paste These Codes
+## Copy & Paste These Codes knside `.github/workflows/main.yml` file
 
 ```yaml
 name: Deploy to Deta Gh Action
