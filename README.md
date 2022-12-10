@@ -16,12 +16,11 @@ You can generate your own access token from your [Deta account](https://web.deta
 - Navigate to **Secrets** panel;
 - **Required:** Click on **New secret** and Name it `DETA_ACCESS_TOKEN` and paste the access token obtained from DETA
 - **Required:** Create a New Secret with name as `DETA_MICRO_NAME` and put your deta micro instance name
-- **Optional:** Create a New Secret with name as `DETA_PROJECT_NAME` and put your deta project name instance name. Default project name will be **default**
-- **Optional:** Create a New Secret with name as `DETA_PROJECT_DIR` and put your deta project directory incase it's not located in root directory . Default will be `.`
+- **Required:** Create a New Secret with name as `DETA_PROJECT_NAME` and put your deta project name instance name. Default project name will be **default**
 
 
 ## Copy & Paste These Codes Inside `.github/workflows/main.yml` File
-
+put your deta project directory incase it's not located in root directory . Default will be `.`
 ```yaml
 name: Deploy to Deta Gh Action
 on: push
@@ -36,5 +35,5 @@ jobs:
           deta-access-token: ${{ secrets.DETA_ACCESS_TOKEN }}
           deta-name: ${{ secrets.DETA_MICRO_NAME }}
           deta-project: ${{ secrets.DETA_PROJECT_NAME }}
-          deta-project-dir: ${{ secrets.DETA_PROJECT_DIR }}
+          deta-project-dir: 'your_deta_project_directory_if_different_from_root'   #Optional
 ```
