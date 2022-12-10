@@ -35,6 +35,6 @@ jobs:
         with:
           deta-access-token: ${{ secrets.DETA_ACCESS_TOKEN }}
           deta-name: ${{ secrets.DETA_MICRO_NAME }}
-          deta-project: ${{ secrets.DETA_MICRO_NAME }}
-          deta-project-dir: ${{ secrets.DETA_MICRO_NAME }}
+          deta-project: ${{ secrets.DETA_PROJECT_NAME }}
+          deta-project-dir: ${{ secrets.DETA_PROJECT_DIR }}
 ```
