@@ -23,7 +23,7 @@ You can generate your own access token from your [Deta account](https://web.deta
 ## Copy & Paste These Codes
 
 ```yaml
-name: Deploy to Deta
+name: Deploy to Deta Gh Action
 on: push
 
 jobs:
