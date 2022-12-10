@@ -1,4 +1,4 @@
-name: "Deploy to Deta"
+name: "Deploy to Deta Gh Action"
 description: "Simple GitHub Action to deploy current repo to a Deta Micro"
 
 inputs:
@@ -46,5 +46,5 @@ runs:
         ~/.deta/bin/deta deploy
 
 branding:
-  icon: check-circle
-  color: purple
+  icon: upload-cloud
+  color: green
